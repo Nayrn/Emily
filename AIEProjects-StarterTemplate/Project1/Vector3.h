@@ -18,8 +18,10 @@ public:
 	Vector3& operator+=(const Vector3 &rhs);
 	Vector3 operator-(const Vector3 &rhs) const;
 	Vector3& operator -=(const Vector3 &rhs);
-	Vector3 operator*(const Vector3 &rhs) const;
-	Vector3& operator*=(const Vector3 &rhs);
+	Vector3 operator*(const float &rhs) const;
+	Vector3& operator*=(const float &rhs);
+
+	float Magnitude() const;
 
 	bool operator==(const Vector3 &rhs) const;
 	bool operator!=(const Vector3 &rhs) const;

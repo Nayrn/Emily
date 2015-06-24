@@ -4,7 +4,7 @@
 
 int main(int argc, char **argv)
 {
-	Game1 *pGame = new Game1(640, 480, false, "Game1");
+	Game1 *pGame = new Game1(840, 640, false, "NewGame");
 	pGame->RunGame();
 	delete pGame;
 
