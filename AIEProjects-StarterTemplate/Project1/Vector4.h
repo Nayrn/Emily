@@ -18,8 +18,8 @@ public:
 	Vector4& operator+=(const Vector4 &rhs);
 	Vector4 operator-(const Vector4 &rhs) const;
 	Vector4& operator-=(const Vector4 &rhs);
-	Vector4 operator*(const Vector4 &rhs) const;
-	Vector4 operator*=(const Vector4 &rhs);
+	Vector4 operator*(const float &rhs) const;
+	Vector4 operator*=(const float &rhs);
 
 	bool operator==(const Vector4 &rhs) const;
 	bool operator!=(const Vector4 &rhs) const;
