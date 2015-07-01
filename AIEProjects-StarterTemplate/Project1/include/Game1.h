@@ -7,7 +7,14 @@ Description:
 #define GAME1_H
 
 #include "Application.h"
+#include "Vector2.h"
+#include "Matrix3.h"
+
+
 class SpriteBatch;
+class Font;
+class Texture;
+class Input;
 
 class Game1 : public Application
 {
@@ -27,7 +34,22 @@ protected:
 
 	SpriteBatch *m_spritebatch;
 
+	Texture *m_texture;
+
+	Font *m_font;
+
+	Input *m_input;
+
+	Vector2 position;
+
+	float rotation;
+
+	float scale;
+
+	Matrix3 trMatrix;
 private:
+
+
 };
 
 #endif
