@@ -12,5 +12,5 @@ int main(int argc, char **argv)
 	pGame->Update(deltaTime);
 	delete pGame;
 
-	return 0;
+	
 };

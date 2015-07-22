@@ -30,10 +30,10 @@ public:
 	void * operator new(size_t size);
 	void operator delete(void * ptr);
 
-	friend std::ostream& operator<<(std::ostream &os, const Vector3 &rhs);
+	/*friend std::ostream& operator<<(std::ostream &os, const Vector3 &rhs);
 	friend std::istream& operator>>(std::istream &is, const Vector3 &rhs);
 	friend Vector3 operator*(const float lhs, const Vector3& rhs);
-
+*/
 };
 
 

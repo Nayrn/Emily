@@ -21,6 +21,8 @@ public:
 	Matrix3 operator*=(const Matrix3& rhs);
 
 	Matrix3& Transpose();
+	Matrix3& Normalise();
+
 
 
 
