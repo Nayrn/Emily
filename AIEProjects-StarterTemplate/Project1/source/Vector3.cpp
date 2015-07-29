@@ -24,9 +24,9 @@ Vector3::~Vector3()
 Vector3 Vector3::operator+(const Vector3 &rhs) const
 {
 	Vector3 temp;
-	temp.x = this->x + rhs.x;
-	temp.y = this->y + rhs.y;
-	temp.z = this->z + rhs.z;
+	temp.x = x + rhs.x;
+	temp.y = y + rhs.y;
+	temp.z = z + rhs.z;
 	return temp;
 
 }
@@ -38,7 +38,6 @@ Vector3& Vector3::operator+=(const Vector3 &rhs)
 	this->z += rhs.z;
 
 	return *this;
-
 }
 
 Vector3 Vector3::operator-(const Vector3 &rhs) const
@@ -73,9 +72,9 @@ Vector3 Vector3::operator*(const float &rhs)const
 
 Vector3 & Vector3::operator*=(const float &rhs)
 {
-	this->x *= rhs;
-	this->y *= rhs;
-	this->z *= rhs;
+	x *= rhs;
+	y *= rhs;
+	z *= rhs;
 	return *this;
 
 }

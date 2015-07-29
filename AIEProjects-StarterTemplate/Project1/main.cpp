@@ -12,5 +12,9 @@ int main(int argc, char **argv)
 	pGame->Update(deltaTime);
 	delete pGame;
 
-	
+	Matrix3 matrix1;
+	Matrix3 matrix2;
+
+	matrix1 + matrix2;
+	matrix1.operator+(matrix2);
 };

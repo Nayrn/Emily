@@ -26,7 +26,7 @@ public:
 	// assets destroyed in destructor
 	virtual ~Game1();
 
-	// update / draw called each frame automaticly
+	// update / draw called each frame automatically
 	virtual void Update(float deltaTime);
 	virtual void Draw();
 

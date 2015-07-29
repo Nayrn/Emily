@@ -26,6 +26,12 @@ Game1::Game1(unsigned int windowWidth, unsigned int windowHeight, bool fullscree
 	rotation = 0.0f;
 	scale = 1.0f;
 
+	Vector3 position(10.0f, 10.0f, 20.0f);
+	Vector3 velocity(10.0f, 10.0f, 10.0f);
+	
+	Vector3 C = position + velocity;
+
+    C = position + velocity;
 }
 
 Game1::~Game1()
