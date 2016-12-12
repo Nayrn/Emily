@@ -1,0 +1,2 @@
+# Emily
+Genetic algorithm AI
