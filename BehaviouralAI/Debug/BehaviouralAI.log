@@ -1,0 +1,47 @@
+﻿  World.cpp
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\geneticsnpc.h(9): warning C4099: 'Genome': type name first seen using 'struct' now seen using 'class'
+  c:\users\emily.ryan\documents\showcase\behaviouralai\src\genetics.h(5): note: see declaration of 'Genome'
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\geneticsnpc.h(13): warning C4099: 'Genome': type name first seen using 'struct' now seen using 'class'
+  c:\users\emily.ryan\documents\showcase\behaviouralai\src\genetics.h(5): note: see declaration of 'Genome'
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\geneticsnpc.h(20): warning C4099: 'Genome': type name first seen using 'struct' now seen using 'class'
+  c:\users\emily.ryan\documents\showcase\behaviouralai\src\genetics.h(5): note: see declaration of 'Genome'
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\world.cpp(197): warning C4018: '<': signed/unsigned mismatch
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\world.cpp(214): warning C4018: '<': signed/unsigned mismatch
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\world.cpp(337): warning C4552: '/': operator has no effect; expected operator with side-effect
+  UtilityValue.cpp
+  UtilityScore.cpp
+  UtilityNPC.cpp
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\utilitynpc.cpp(87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\utilitynpc.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\utilitynpc.cpp(105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  RandNPC.cpp
+  main.cpp
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\main.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Gizmos.cpp
+  GeneticsNPC.cpp
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\genetics.h(5): warning C4099: 'Genome': type name first seen using 'class' now seen using 'struct'
+  c:\users\emily.ryan\documents\showcase\behaviouralai\src\genetics.h(4): note: see declaration of 'Genome'
+  GeneticsApplication.cpp
+  Genetics.cpp
+  Camera.cpp
+  BaseNPC.cpp
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\basenpc.cpp(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\basenpc.cpp(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\basenpc.cpp(139): warning C4552: '-': operator has no effect; expected operator with side-effect
+c:\users\emily.ryan\documents\showcase\behaviouralai\src\basenpc.cpp(140): warning C4552: '-': operator has no effect; expected operator with side-effect
+  BaseApplication.cpp
+  Generating Code...
+  gl_core_4_4.c
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(winmm_joystick.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\glfw.pdb'; linking object as if no debug info
+  BehaviouralAI.vcxproj -> C:\Users\emily.ryan\Documents\ShowCase\BehaviouralAI\bin\BehaviouralAI_d.exe
